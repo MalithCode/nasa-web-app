@@ -1,0 +1,312 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.login-container {
+  background-image: url("assets/img/login-bg.jpg"); 
+  background-size: cover; /* Stretch image to cover the container */
+  background-position: center; /* Center the image horizontally and vertically */
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.cover-img{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.about-container {
+  background-image: url("assets/img/cover.jpg"); 
+  background-size: cover; /* Stretch image to cover the container */
+  background-position: center; /* Center the image horizontally and vertically */
+  width: 100vw;
+  height: 120vh;
+}
+
+.url-img {
+  object-fit: "cover";
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+}
+
+.t-2 {
+  top: 2%;
+}
+
+.t-5 {
+  top: 5%;
+}
+
+.t-10 {
+  top: 10%;
+}
+
+.t-15 {
+  top: 15%;
+}
+
+.t-50 {
+  top: 50%;
+}
+
+.b-25 {
+  bottom: 25%;
+}
+
+.b-5 {
+  bottom: 5%;
+}
+
+.hp-80 {
+  height: 80px;
+}
+
+.mo-5{
+  margin: 5%;
+}
+
+.w-nav-100 {
+  width: 100%;
+}
+
+.res-w-80 {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.w-res-75 {
+  width: 75%;
+}
+
+@keyframes blinkingText {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.bg-pink {
+  background-color: #ff70bf;
+}
+
+.f-pink {
+  color: #ff70bf;
+}
+
+.f-blue {
+  color: #4ec0e6;
+}
+
+.f-perpal {
+  color: #b894ff;
+}
+
+.icon-button {
+  padding: 0;
+  font-size: 50px;
+}
+
+.icon-button:hover {
+  color: #4ec0e6;
+}
+
+.icon-button:active {
+  color: #b894ff;
+  font-size: 70px;
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+@media screen and (max-width: 3000px) {
+  .about-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+}
+
+@media screen and (max-width: 1921px) {
+  .about-container {
+    width: 100vw;
+    height: 120vh;
+  }
+  .res-w-80 {
+    width: 100%;
+  }
+  .url-img {
+    object-fit: "cover";
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+  .t-50 {
+    top: 30%;
+  }
+
+  .w-res-75 {
+    width: 95%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    width: 100vw;
+    height: 90vh;
+  }
+  .res-w-80 {
+    width: 100%;
+    }
+
+    .h1 {
+      font-size: 20px;
+    }
+
+    .h3 {
+      font-size: 15px;
+    }
+
+    .t-50 {
+      top: 35%;
+    }
+
+    .url-img {
+      object-fit: "cover";
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+  .about-container {
+    width: 100vw;
+    height: 90vh;
+  }
+  .res-w-80 {
+    width: 100%;
+    }
+
+    .h1 {
+      font-size: 20px;
+    }
+
+    .h3 {
+      font-size: 15px;
+    }
+
+    .t-50 {
+      top: 35%;
+    }
+
+    .url-img {
+      object-fit: "cover";
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50px;
+    }
+
+    .w-nav-100 {
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+  .about-container {
+    width: 100vw;
+    height: 90vh;
+  }
+  .res-w-80 {
+    width: 100%;
+    }
+
+    .h1 {
+      font-size: 20px;
+    }
+
+    .h3 {
+      font-size: 15px;
+    }
+
+    .t-50 {
+      top: 35%;
+    }
+
+    .url-img {
+      object-fit: "cover";
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50px;
+    }
+
+    .w-nav-100 {
+      width: 70%;
+    }
+
+    .logo-img {
+      width: 70px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+  .about-container {
+    width: 100vw;
+    height: 90vh;
+  }
+  .res-w-80 {
+    width: 100%;
+    }
+
+    .h1 {
+      font-size: 30px;
+    }
+
+    .h3 {
+      font-size: 25px;
+    }
+
+    .t-50 {
+      top: 120%;
+    }
+
+    .t-black {
+      color: black;
+    }
+
+    .url-img {
+      object-fit: "cover";
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 20px;
+    }
+
+    .mo-5{
+      margin: 2%;
+    }
+
+    .w-nav-100 {
+      width: 260px;
+    }
+
+    .logo-img {
+      width: 90px;
+    }
+}
+
+
